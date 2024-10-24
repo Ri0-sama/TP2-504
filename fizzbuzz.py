@@ -6,7 +6,7 @@ class fizzBuzz:
 
     def affiche(self):
         result = ""
-        for i in range(1, 100):
+        for i in range(1, 101):
             if i % 15 == 0:
                 result += "FrisBee"
             elif i % 3 == 0:
