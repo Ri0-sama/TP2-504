@@ -18,7 +18,7 @@ class TestCryptage(unittest.TestCase):
         encrypted_message = "bcd"
         decrypted = self.instance.decrypt(encrypted_message)
         print(f"Message crypté: '{encrypted_message}' => Message décrypté: '{decrypted}'")
-        self.assertEqual(decrypted, "thp")  
+        self.assertEqual(decrypted, "abc")  
 
 if __name__ == "__main__":
     unittest.main()
