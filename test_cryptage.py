@@ -6,7 +6,7 @@ class TestCryptage(unittest.TestCase):
         self.instance = Cryptage()
 
     def test_crypt_message(self):
-        self.assertEqual(self.instance.crypt("abc"), "bcd")  # Test échouera ici
+        self.assertEqual(self.instance.crypt("abc"), "bcd") 
 
 if __name__ == "__main__":
     unittest.main()
